@@ -1,0 +1,74 @@
+body{
+    background-image: url(../images/burger.png);
+}
+#left{
+    float:left;
+}
+#right{float: right;}
+
+.burger-form{
+    clear: both;
+}
+#title{
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    font-size: 40px;
+    background-color: yellow;
+    border-style: outset;
+    border-color: tomato;
+    border-width: 15px;
+}
+li{
+text-align: center;
+font-size: 25px;
+background-color: yellow;
+border-style: outset;
+border-color: tomato;
+border-width: 15px;
+margin-top: 10px;
+}
+h2{
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+font-size: 25px;
+background-color: yellow;
+border-style: outset;
+border-color: tomato;
+border-width: 15px;
+margin-top: 10px;
+}
+button{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: yellow;
+border-style: outset;
+border-color: tomato;
+border-width: 2px;
+    position: relative;
+    bottom:5px;
+    margin-right: 5px ;
+
+}
+.burger-form{
+    background-color: yellow;
+    margin: 0 auto;
+    width: 600px;
+    border-style: outset;
+    border-color: tomato;
+    border-width: 15px;
+    margin-top: 10px;  
+}
+h1{
+    text-align: center;
+}
+#bigbutton{
+    font-size: 30px;
+    margin-top: 15px;
+    border-width: 6px;
+
+}
+input{
+    font-size: 30px;
+}

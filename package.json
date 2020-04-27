@@ -1,0 +1,26 @@
+{
+  "name": "scrapermongonewsite",
+  "version": "1.0.0",
+  "description": "This site should scrap news from fox news and then publish it on my site and allow people to post comments on it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Graham91/scrapermongonewsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Graham91/scrapermongonewsite/issues"
+  },
+  "homepage": "https://github.com/Graham91/scrapermongonewsite#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "mongoose": "^5.9.10"
+  }
+}
