@@ -1,7 +1,20 @@
 <div class="newsdiv">
-	<img src="{{article.image}}" class="image">
+	<img src="{{image}}" class="image">
 	<div class="words">
-		{{article.name}}
+		{{name}}
 	</div>
-	<a href="{{article.url}}">Read More</a>
+	<a href="{{url}}">Read More</a>
+	<button class="readcomments" name="{{id}}">Read Comments</button>
+	<button class="postcoment" name="{{id}}">Comment</button>
+	<div class="hidden" id="commentsection{{id}}">
+		<form action="submit">
+			<input type="text">
+			<input type="text">
+		</form>
+	</div>
+	<div class="hidden" id="readcommentssection{{id}}">
+	</div>
+</div>
+<div>
+	
 </div>

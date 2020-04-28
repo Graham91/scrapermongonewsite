@@ -11,3 +11,6 @@
 .words {
   font-size: 25px;
 }
+.hidden {
+  display: none;
+}
