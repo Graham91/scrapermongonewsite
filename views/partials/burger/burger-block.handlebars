@@ -1,10 +1,7 @@
-<li>
-	{{burgername}}
-
-	<button class="eatit" data-id="{{id}}" data-newdev="{{devoured}}">
-		{{#if devoured}}EAT IT!{{else}}DISCHARGE!{{/if}}
-	</button>
-    <button class="deleteit" data-id="{{id}}">
-       REMOVE BURGER!
-    </button>
-</li>
+<div class="newsdiv">
+	<img src="{{article.image}}" class="image">
+	<div class="words">
+		{{article.name}}
+	</div>
+	<a href="{{article.url}}">Read More</a>
+</div>
