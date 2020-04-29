@@ -4,12 +4,20 @@
 		{{name}}
 	</div>
 	<a href="{{url}}">Read More</a>
+	<div>
 	<button class="readcomments" name="{{id}}">Read Comments</button>
+	</div>
+	<div>
 	<button class="postcoment" name="{{id}}">Comment</button>
+	</div>
 	<div class="hidden" id="commentsection{{id}}">
 		<form action="submit">
+			<div><h3>Name</h3>
 			<input type="text">
+			</div>
+				<div><h3>Comment</h3>
 			<input type="text">
+			</div>
 		</form>
 	</div>
 	<div class="hidden" id="readcommentssection{{id}}">
